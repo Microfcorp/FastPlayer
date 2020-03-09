@@ -109,7 +109,7 @@ namespace FastPlayer
 
         private void button3_Click(object sender, EventArgs e)
         {
-            
+            Players[Selected].TopMost = !Players[Selected].TopMost;
         }
 
         private void button4_Click(object sender, EventArgs e)
